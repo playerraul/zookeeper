@@ -1,22 +1,19 @@
-2014-02-16 16:24:45,964 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/gaoge/software/z2/bin/../conf/zoo.cfg
-2014-02-16 16:24:45,968 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
-2014-02-16 16:24:45,970 [myid:2] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2014-02-16 16:24:45,970 [myid:2] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2014-02-16 16:24:45,971 [myid:2] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2014-02-16 16:24:45,978 [myid:2] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
-2014-02-16 16:24:45,989 [myid:2] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2182
-2014-02-16 16:24:46,000 [myid:2] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
-2014-02-16 16:24:46,001 [myid:2] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
-2014-02-16 16:24:46,001 [myid:2] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
-2014-02-16 16:24:46,001 [myid:2] - INFO  [main:QuorumPeer@959] - initLimit set to 10
-2014-02-16 16:24:46,011 [myid:2] - INFO  [main:QuorumPeer@429] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
-2014-02-16 16:24:46,073 [myid:2] - INFO  [main:QuorumPeer@444] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
-2014-02-16 16:24:46,137 [myid:2] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3334
-2014-02-16 16:24:46,149 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@670] - LOOKING
-2014-02-16 16:24:46,150 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@740] - New election. My id =  2, proposed zxid=0x0
-2014-02-16 16:24:46,157 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
-2014-02-16 16:24:46,157 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
-2014-02-16 16:24:46,158 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
+2014-02-23 19:19:30,842 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf/zoo.cfg
+2014-02-23 19:19:30,847 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2014-02-23 19:19:30,872 [myid:2] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2014-02-23 19:19:30,873 [myid:2] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2014-02-23 19:19:30,873 [myid:2] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2014-02-23 19:19:30,900 [myid:2] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2014-02-23 19:19:30,912 [myid:2] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2182
+2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2014-02-23 19:19:30,925 [myid:2] - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2014-02-23 19:19:30,933 [myid:2] - INFO  [main:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.c00000004
+2014-02-23 19:19:30,957 [myid:2] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3334
+2014-02-23 19:19:30,968 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@670] - LOOKING
+2014-02-23 19:19:30,971 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@740] - New election. My id =  2, proposed zxid=0xd000000a5
+2014-02-23 19:19:30,978 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -29,80 +26,8 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
 	at java.lang.Thread.run(Thread.java:724)
-2014-02-16 16:24:46,158 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
-2014-02-16 16:24:46,360 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@750] - LEADING
-2014-02-16 16:24:46,365 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@58] - TCP NoDelay set to: true
-2014-02-16 16:24:46,375 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
-2014-02-16 16:24:46,375 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:host.name=gaoge-desktop
-2014-02-16 16:24:46,376 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.version=1.7.0_25
-2014-02-16 16:24:46,376 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.vendor=Oracle Corporation
-2014-02-16 16:24:46,376 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
-2014-02-16 16:24:46,376 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.class.path=/home/gaoge/software/z2/bin/../build/classes:/home/gaoge/software/z2/bin/../build/lib/*.jar:/home/gaoge/software/z2/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/gaoge/software/z2/bin/../lib/slf4j-api-1.6.1.jar:/home/gaoge/software/z2/bin/../lib/netty-3.2.2.Final.jar:/home/gaoge/software/z2/bin/../lib/log4j-1.2.15.jar:/home/gaoge/software/z2/bin/../lib/jline-0.9.94.jar:/home/gaoge/software/z2/bin/../zookeeper-3.4.5.jar:/home/gaoge/software/z2/bin/../src/java/lib/*.jar:/home/gaoge/software/z2/bin/../conf:
-2014-02-16 16:24:46,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
-2014-02-16 16:24:46,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.io.tmpdir=/tmp
-2014-02-16 16:24:46,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.compiler=<NA>
-2014-02-16 16:24:46,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.name=Linux
-2014-02-16 16:24:46,378 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.arch=amd64
-2014-02-16 16:24:46,378 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.version=3.2.0-52-generic
-2014-02-16 16:24:46,378 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.name=root
-2014-02-16 16:24:46,379 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.home=/root
-2014-02-16 16:24:46,379 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.dir=/home/gaoge/software/z2
-2014-02-16 16:24:46,380 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ./data/version-2 snapdir ./data/version-2
-2014-02-16 16:24:46,381 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@345] - LEADING - LEADER ELECTION TOOK - 231
-2014-02-16 16:24:46,383 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileTxnSnapLog@240] - Snapshotting: 0x0 to ./data/version-2/snapshot.0
-2014-02-16 16:24:47,394 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:54461:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@c6727f0
-2014-02-16 16:24:47,493 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:54461:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
-2014-02-16 16:24:47,494 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:54461:LearnerHandler@395] - Sending DIFF
-2014-02-16 16:24:47,561 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:54461:Leader@574] - Commiting zxid 0x100000000 from /127.0.0.1:3333 not first!
-2014-02-16 16:24:47,562 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:54461:Leader@576] - First is 0x0
-2014-02-16 16:24:47,562 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:54461:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0x100000000
-2014-02-16 16:32:37,833 [myid:2] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2182:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:60323
-2014-02-16 16:32:37,842 [myid:2] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2182:NIOServerCnxn@821] - Processing srvr command from /127.0.0.1:60323
-2014-02-16 16:32:37,846 [myid:2] - INFO  [Thread-4:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:60323 (no session established for client)
-2014-02-16 20:15:40,665 [myid:2] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@762] - Connection broken for id 1, my id = 2, error = 
-java.io.EOFException
-	at java.io.DataInputStream.readInt(DataInputStream.java:392)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
-2014-02-16 20:15:40,666 [myid:2] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2014-02-16 20:15:40,665 [myid:2] - ERROR [LearnerHandler-/127.0.0.1:54461:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
-java.io.EOFException
-	at java.io.DataInputStream.readInt(DataInputStream.java:392)
-	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:63)
-	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:83)
-	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:108)
-	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:476)
-2014-02-16 20:15:40,667 [myid:2] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-java.lang.InterruptedException
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2017)
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2095)
-	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:389)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
-2014-02-16 20:15:40,668 [myid:2] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2014-02-16 20:15:40,686 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:54461:LearnerHandler@575] - ******* GOODBYE /127.0.0.1:54461 ********
-2014-02-16 20:15:41,372 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@490] - Shutting down
-2014-02-16 20:15:41,373 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@496] - Shutdown called
-java.lang.Exception: shutdown Leader! reason: Only 1 followers, need 1
-	at org.apache.zookeeper.server.quorum.Leader.shutdown(Leader.java:496)
-	at org.apache.zookeeper.server.quorum.Leader.lead(Leader.java:471)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:753)
-2014-02-16 20:15:41,373 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ZooKeeperServer@419] - shutting down
-2014-02-16 20:15:41,374 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:SessionTrackerImpl@225] - Shutting down
-2014-02-16 20:15:41,374 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:PrepRequestProcessor@743] - Shutting down
-2014-02-16 20:15:41,373 [myid:2] - INFO  [Thread-2:Leader$LearnerCnxAcceptor@309] - exception while shutting down acceptor: java.net.SocketException: Socket closed
-2014-02-16 20:15:41,375 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@143] - PrepRequestProcessor exited loop!
-2014-02-16 20:15:41,375 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ProposalRequestProcessor@88] - Shutting down
-2014-02-16 20:15:41,376 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:CommitProcessor@181] - Shutting down
-2014-02-16 20:15:41,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader$ToBeAppliedRequestProcessor@655] - Shutting down
-2014-02-16 20:15:41,377 [myid:2] - INFO  [CommitProcessor:2:CommitProcessor@150] - CommitProcessor exited loop!
-2014-02-16 20:15:41,377 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FinalRequestProcessor@415] - shutdown of request processor complete
-2014-02-16 20:15:41,378 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:SyncRequestProcessor@175] - Shutting down
-2014-02-16 20:15:41,379 [myid:2] - INFO  [SyncThread:2:SyncRequestProcessor@155] - SyncRequestProcessor exited!
-2014-02-16 20:15:41,380 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@670] - LOOKING
-2014-02-16 20:15:41,387 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.0
-2014-02-16 20:15:41,389 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@740] - New election. My id =  2, proposed zxid=0x0
-2014-02-16 20:15:41,390 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-02-23 19:19:30,981 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:30,981 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -115,21 +40,7 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
 	at java.lang.Thread.run(Thread.java:724)
-2014-02-16 20:15:41,391 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x0 (n.zxid), 0x2 (n.round), LOOKING (n.state), 2 (n.sid), 0x1 (n.peerEPoch), LOOKING (my state)
-2014-02-16 20:15:41,391 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
-	at java.lang.Thread.run(Thread.java:724)
-2014-02-16 20:15:41,593 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-02-23 19:19:31,184 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -141,7 +52,7 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:41,594 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
+2014-02-23 19:19:31,186 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -153,8 +64,8 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:41,595 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 400
-2014-02-16 20:15:41,996 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-02-23 19:19:31,187 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 400
+2014-02-23 19:19:31,588 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -166,7 +77,7 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:41,997 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
+2014-02-23 19:19:31,590 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -178,9 +89,8 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:41,998 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 800
-2014-02-16 20:15:42,000 [myid:2] - INFO  [SessionTracker:SessionTrackerImpl@162] - SessionTrackerImpl exited loop!
-2014-02-16 20:15:42,799 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-02-23 19:19:31,591 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 800
+2014-02-23 19:19:32,392 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -192,7 +102,7 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:42,799 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
+2014-02-23 19:19:32,394 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -204,8 +114,8 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:42,800 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 1600
-2014-02-16 20:15:44,400 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-02-23 19:19:32,395 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 1600
+2014-02-23 19:19:33,996 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -217,7 +127,7 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:44,402 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
+2014-02-23 19:19:33,997 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -229,29 +139,156 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
 	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:44,403 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 3200
-2014-02-16 20:15:47,604 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:47,605 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-16 20:15:47,606 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 6400
+2014-02-23 19:19:33,998 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 3200
+2014-02-23 19:19:36,702 [myid:2] - INFO  [/127.0.0.1:3334:QuorumCnxManager$Listener@493] - Received connection request /127.0.0.1:53801
+2014-02-23 19:19:36,718 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 1 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:36,719 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:36,921 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@750] - LEADING
+2014-02-23 19:19:36,925 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@58] - TCP NoDelay set to: true
+2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:host.name=gaoge-desktop
+2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.version=1.7.0_25
+2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.class.path=/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/classes:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-api-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/netty-3.2.2.Final.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/log4j-1.2.15.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/jline-0.9.94.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../zookeeper-3.4.5.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../src/java/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf:
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.compiler=<NA>
+2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.name=Linux
+2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.arch=amd64
+2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.version=3.2.0-52-generic
+2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.name=root
+2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.home=/root
+2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.dir=/home/ubuntu/git/zookeeper/zookeeper-server/z2
+2014-02-23 19:19:36,941 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ./data/version-2 snapdir ./data/version-2
+2014-02-23 19:19:36,942 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@345] - LEADING - LEADER ELECTION TOOK - 5971
+2014-02-23 19:19:36,944 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.c00000004
+2014-02-23 19:19:36,956 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileTxnSnapLog@240] - Snapshotting: 0xd000000a5 to ./data/version-2/snapshot.d000000a5
+2014-02-23 19:19:36,963 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@45106993
+2014-02-23 19:19:37,071 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0xd000000a5 minCommittedLog=0xd00000001 peerLastZxid=0xd000000a5
+2014-02-23 19:19:37,072 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@395] - Sending DIFF
+2014-02-23 19:19:37,139 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50513:Leader@574] - Commiting zxid 0xe00000000 from /127.0.0.1:3333 not first!
+2014-02-23 19:19:37,139 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50513:Leader@576] - First is 0x0
+2014-02-23 19:19:37,140 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0xe00000000
+2014-02-23 19:19:45,297 [myid:2] - INFO  [/127.0.0.1:3334:QuorumCnxManager$Listener@493] - Received connection request /127.0.0.1:53809
+2014-02-23 19:19:45,299 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 3 (n.leader), 0xc00000004 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xc (n.peerEPoch), LEADING (my state)
+2014-02-23 19:19:45,301 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xd (n.peerEPoch), LEADING (my state)
+2014-02-23 19:19:45,534 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@152d325a
+2014-02-23 19:19:45,644 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@318] - Synchronizing with Follower sid: 3 maxCommittedLog=0xd000000a5 minCommittedLog=0xd00000001 peerLastZxid=0xc00000004
+2014-02-23 19:19:45,645 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@379] - Unhandled proposal scenario
+2014-02-23 19:19:45,645 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@395] - Sending SNAP
+2014-02-23 19:19:45,646 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@419] - Sending snapshot last zxid of peer is 0xc00000004  zxid of leader is 0xe00000000sent zxid of db as 0xe00000000
+2014-02-23 19:20:07,799 [myid:2] - INFO  [SyncThread:2:FileTxnLog@199] - Creating new log file: log.e00000001
+2014-02-23 19:20:07,892 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740000 type:create cxid:0x1 zxid:0xe00000002 txntype:-1 reqpath:n/a Error Path:/workers Error:KeeperErrorCode = NoNode for /workers
+2014-02-23 19:20:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445de420d0000a, timeout of 30000ms exceeded
+2014-02-23 19:20:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445de420d0000a
+2014-02-23 19:20:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740000, timeout of 15000ms exceeded
+2014-02-23 19:20:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740000
+2014-02-23 19:23:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740001, timeout of 15000ms exceeded
+2014-02-23 19:23:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740001
+2014-02-23 19:24:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740003, timeout of 15000ms exceeded
+2014-02-23 19:24:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740003
+2014-02-23 19:24:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740004, timeout of 15000ms exceeded
+2014-02-23 19:24:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740004
+2014-02-23 19:43:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740005, timeout of 15000ms exceeded
+2014-02-23 19:43:44,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740005
+2014-02-23 20:06:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740006, timeout of 15000ms exceeded
+2014-02-23 20:06:02,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740006
+2014-02-23 20:06:56,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740007, timeout of 15000ms exceeded
+2014-02-23 20:06:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740007
+2014-02-23 20:07:28,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740008, timeout of 15000ms exceeded
+2014-02-23 20:07:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740008
+2014-02-23 20:08:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000a, timeout of 15000ms exceeded
+2014-02-23 20:08:00,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000a
+2014-02-23 20:08:18,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740009, timeout of 15000ms exceeded
+2014-02-23 20:08:18,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740009
+2014-02-23 20:08:32,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000b, timeout of 15000ms exceeded
+2014-02-23 20:08:32,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000b
+2014-02-23 20:08:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000c, timeout of 15000ms exceeded
+2014-02-23 20:08:58,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000c
+2014-02-23 20:10:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000d, timeout of 15000ms exceeded
+2014-02-23 20:10:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000d
+2014-02-23 20:58:14,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000e, timeout of 15000ms exceeded
+2014-02-23 20:58:14,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000e
+2014-02-23 20:59:20,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000f, timeout of 15000ms exceeded
+2014-02-23 20:59:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000f
+2014-02-23 20:59:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740010, timeout of 15000ms exceeded
+2014-02-23 20:59:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740010
+2014-02-23 21:00:13,966 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740012 type:create cxid:0x1 zxid:0xe00000032 txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = NodeExists for /master
+2014-02-23 21:00:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740011, timeout of 15000ms exceeded
+2014-02-23 21:00:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740011
+2014-02-23 21:00:30,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740012, timeout of 15000ms exceeded
+2014-02-23 21:00:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740012
+2014-02-23 21:01:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740013, timeout of 15000ms exceeded
+2014-02-23 21:01:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740013
+2014-02-23 21:01:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740014, timeout of 15000ms exceeded
+2014-02-23 21:01:52,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740014
+2014-02-23 21:02:18,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740015, timeout of 15000ms exceeded
+2014-02-23 21:02:18,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740015
+2014-02-23 21:02:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740016, timeout of 15000ms exceeded
+2014-02-23 21:02:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740016
+2014-02-23 21:04:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740017, timeout of 15000ms exceeded
+2014-02-23 21:04:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740017
+2014-02-23 21:04:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740018, timeout of 15000ms exceeded
+2014-02-23 21:04:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740018
+2014-02-23 21:05:45,377 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c574001a type:create cxid:0x1 zxid:0xe0000004a txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = NodeExists for /master
+2014-02-23 21:06:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001a, timeout of 15000ms exceeded
+2014-02-23 21:06:02,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001a
+2014-02-23 21:06:40,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740019, timeout of 15000ms exceeded
+2014-02-23 21:06:40,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740019
+2014-02-23 21:07:36,760 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001b
+2014-02-23 21:08:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001c, timeout of 15000ms exceeded
+2014-02-23 21:08:58,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001c
+2014-02-23 21:09:30,611 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001d
+2014-02-23 21:10:35,736 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001e
+2014-02-23 21:49:23,606 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740020 type:create cxid:0x2 zxid:0xe0000005c txntype:-1 reqpath:n/a Error Path:/workers/worker-2006951274/master Error:KeeperErrorCode = NoChildrenForEphemerals for /workers/worker-2006951274/master
+2014-02-23 21:49:24,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001f, timeout of 35000ms exceeded
+2014-02-23 21:49:24,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001f
+2014-02-23 21:49:40,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740020, timeout of 15000ms exceeded
+2014-02-23 21:49:40,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740020
+2014-02-23 21:51:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740022, timeout of 15000ms exceeded
+2014-02-23 21:51:08,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740022
+2014-02-23 21:51:16,965 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740023 type:create cxid:0x2 zxid:0xe00000065 txntype:-1 reqpath:n/a Error Path:/workers/worker--1615227411/master Error:KeeperErrorCode = NodeExists for /workers/worker--1615227411/master
+2014-02-23 21:51:34,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740023, timeout of 15000ms exceeded
+2014-02-23 21:51:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740023
+2014-02-23 21:51:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740021, timeout of 35000ms exceeded
+2014-02-23 21:51:38,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740021
+2014-02-23 21:51:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740024, timeout of 15000ms exceeded
+2014-02-23 21:51:48,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740024
+2014-02-23 21:58:21,456 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0x8b zxid:0xe0000006a txntype:-1 reqpath:n/a Error Path:/workers/worker--1615227411 Error:KeeperErrorCode = Directory not empty for /workers/worker--1615227411
+2014-02-23 22:01:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740025, timeout of 35000ms exceeded
+2014-02-23 22:01:00,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740025
+2014-02-23 22:04:11,979 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0x95 zxid:0xe00000071 txntype:-1 reqpath:n/a Error Path:/workers/worker--2083846205 Error:KeeperErrorCode = NoNode for /workers/worker--2083846205
+2014-02-23 22:05:56,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740028, timeout of 15000ms exceeded
+2014-02-23 22:05:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740028
+2014-02-23 22:06:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740029, timeout of 15000ms exceeded
+2014-02-23 22:06:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740029
+2014-02-23 22:07:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740026, timeout of 35000ms exceeded
+2014-02-23 22:07:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740026
+2014-02-23 22:07:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740027, timeout of 35000ms exceeded
+2014-02-23 22:07:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740027
+2014-02-23 22:22:16,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002a, timeout of 15000ms exceeded
+2014-02-23 22:22:16,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002a
+2014-02-23 22:22:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002b, timeout of 15000ms exceeded
+2014-02-23 22:22:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002b
+2014-02-23 22:23:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002c, timeout of 15000ms exceeded
+2014-02-23 22:23:44,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002c
+2014-02-23 22:23:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002d, timeout of 15000ms exceeded
+2014-02-23 22:23:52,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002d
+2014-02-23 22:29:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740030, timeout of 15000ms exceeded
+2014-02-23 22:29:26,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740030
+2014-02-23 22:29:39,350 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c574002e type:setData cxid:0x6 zxid:0xe0000008f txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = BadVersion for /master
+2014-02-23 22:30:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002e, timeout of 35000ms exceeded
+2014-02-23 22:30:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002e
+2014-02-23 22:30:34,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002f, timeout of 35000ms exceeded
+2014-02-23 22:30:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002f
+2014-02-23 22:36:35,260 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0xbe zxid:0xe00000092 txntype:-1 reqpath:n/a Error Path:/workers/-725634470 Error:KeeperErrorCode = NoNode for /workers/-725634470
+2014-02-23 22:38:06,599 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740033 type:setData cxid:0x3 zxid:0xe00000099 txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = BadVersion for /master
+2014-02-23 22:38:22,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740033, timeout of 15000ms exceeded
+2014-02-23 22:38:22,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740033
+2014-02-23 22:38:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740034, timeout of 15000ms exceeded
+2014-02-23 22:38:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740034
+2014-02-23 22:39:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740031, timeout of 35000ms exceeded
+2014-02-23 22:39:48,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740031
+2014-02-23 22:39:54,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740032, timeout of 35000ms exceeded
+2014-02-23 22:39:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740032

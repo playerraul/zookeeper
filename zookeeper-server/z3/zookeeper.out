@@ -1,0 +1,46 @@
+2014-02-23 19:19:45,080 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../conf/zoo.cfg
+2014-02-23 19:19:45,085 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2014-02-23 19:19:45,088 [myid:3] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2014-02-23 19:19:45,089 [myid:3] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2014-02-23 19:19:45,089 [myid:3] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2014-02-23 19:19:45,097 [myid:3] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2014-02-23 19:19:45,110 [myid:3] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2183
+2014-02-23 19:19:45,127 [myid:3] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2014-02-23 19:19:45,128 [myid:3] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2014-02-23 19:19:45,128 [myid:3] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2014-02-23 19:19:45,128 [myid:3] - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2014-02-23 19:19:45,235 [myid:3] - INFO  [main:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.200000006
+2014-02-23 19:19:45,275 [myid:3] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:4445
+2014-02-23 19:19:45,287 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@670] - LOOKING
+2014-02-23 19:19:45,290 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@740] - New election. My id =  3, proposed zxid=0xc00000004
+2014-02-23 19:19:45,298 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 3 (n.leader), 0xc00000004 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xc (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,299 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,300 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,301 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,302 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,303 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,303 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,303 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
+2014-02-23 19:19:45,504 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@738] - FOLLOWING
+2014-02-23 19:19:45,512 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Learner@85] - TCP NoDelay set to: true
+2014-02-23 19:19:45,523 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-02-23 19:19:45,524 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:host.name=gaoge-desktop
+2014-02-23 19:19:45,524 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.version=1.7.0_25
+2014-02-23 19:19:45,525 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2014-02-23 19:19:45,525 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2014-02-23 19:19:45,525 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.class.path=/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../build/classes:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../build/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../lib/slf4j-api-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../lib/netty-3.2.2.Final.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../lib/log4j-1.2.15.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../lib/jline-0.9.94.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../zookeeper-3.4.5.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../src/java/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z3/bin/../conf:
+2014-02-23 19:19:45,526 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2014-02-23 19:19:45,526 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2014-02-23 19:19:45,527 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.compiler=<NA>
+2014-02-23 19:19:45,527 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.name=Linux
+2014-02-23 19:19:45,527 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.arch=amd64
+2014-02-23 19:19:45,528 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.version=3.2.0-52-generic
+2014-02-23 19:19:45,528 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.name=root
+2014-02-23 19:19:45,529 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.home=/root
+2014-02-23 19:19:45,529 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.dir=/home/ubuntu/git/zookeeper/zookeeper-server/z3
+2014-02-23 19:19:45,530 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ./data/version-2 snapdir ./data/version-2
+2014-02-23 19:19:45,531 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@63] - FOLLOWING - LEADER ELECTION TOOK - 241
+2014-02-23 19:19:45,646 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Learner@325] - Getting a snapshot from leader
+2014-02-23 19:19:45,656 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FileTxnSnapLog@240] - Snapshotting: 0xe00000000 to ./data/version-2/snapshot.e00000000
+2014-02-23 19:20:07,799 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@118] - Got zxid 0xe00000001 expected 0x1
+2014-02-23 19:20:07,801 [myid:3] - INFO  [SyncThread:3:FileTxnLog@199] - Creating new log file: log.e00000001
