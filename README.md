@@ -17,10 +17,10 @@ sudo sh bin/zkServer.sh start
 
 
 ### Run demo programme
-The main programe's path:  zookeeper-work / src / main / java / com / gg / work
+**The main programe's path:**  zookeeper-work / src / main / java / com / gg / work
 
-Lanuch N feature jobs:
+**Lanuch N feature jobs:**
 run "RegisterJob.java" N times
 
-Client sends request for feature extraction:
+**Client sends request for feature extraction:**
 run "ExtractFeatureClient.java"
