@@ -1,8 +1,10 @@
 zookeeper
 =========
 There are two folder in this repository:
-zookeeper-server is the base environment contains three zookeeper servers.
-zookeeper-work is the main demo project.
+
+**zookeeper-server** is the base environment contains three zookeeper servers.
+
+**zookeeper-work** is the main demo project.
 
 ## Getting Started
 ### Start zookeeper servers
