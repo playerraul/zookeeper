@@ -1,19 +1,21 @@
-2014-02-23 19:19:30,842 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf/zoo.cfg
-2014-02-23 19:19:30,847 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
-2014-02-23 19:19:30,872 [myid:2] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2014-02-23 19:19:30,873 [myid:2] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2014-02-23 19:19:30,873 [myid:2] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2014-02-23 19:19:30,900 [myid:2] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
-2014-02-23 19:19:30,912 [myid:2] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2182
-2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
-2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
-2014-02-23 19:19:30,924 [myid:2] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
-2014-02-23 19:19:30,925 [myid:2] - INFO  [main:QuorumPeer@959] - initLimit set to 10
-2014-02-23 19:19:30,933 [myid:2] - INFO  [main:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.c00000004
-2014-02-23 19:19:30,957 [myid:2] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3334
-2014-02-23 19:19:30,968 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@670] - LOOKING
-2014-02-23 19:19:30,971 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@740] - New election. My id =  2, proposed zxid=0xd000000a5
-2014-02-23 19:19:30,978 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
+2014-03-01 15:46:22,042 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf/zoo.cfg
+2014-03-01 15:46:22,046 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2014-03-01 15:46:22,071 [myid:2] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2014-03-01 15:46:22,071 [myid:2] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2014-03-01 15:46:22,071 [myid:2] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2014-03-01 15:46:22,079 [myid:2] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2014-03-01 15:46:22,095 [myid:2] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2182
+2014-03-01 15:46:22,116 [myid:2] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2014-03-01 15:46:22,116 [myid:2] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2014-03-01 15:46:22,116 [myid:2] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2014-03-01 15:46:22,117 [myid:2] - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2014-03-01 15:46:22,179 [myid:2] - INFO  [main:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.d000000a5
+2014-03-01 15:46:22,232 [myid:2] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3334
+2014-03-01 15:46:22,241 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@670] - LOOKING
+2014-03-01 15:46:22,243 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@740] - New election. My id =  2, proposed zxid=0xe000000a1
+2014-03-01 15:46:22,251 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xe000000a1 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0xe (n.peerEPoch), LOOKING (my state)
+2014-03-01 15:46:22,251 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 1 (n.leader), 0xe000000a1 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xe (n.peerEPoch), LOOKING (my state)
+2014-03-01 15:46:22,252 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
 java.net.ConnectException: Connection refused
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
@@ -26,269 +28,225 @@ java.net.ConnectException: Connection refused
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
 	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
 	at java.lang.Thread.run(Thread.java:724)
-2014-02-23 19:19:30,981 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
-2014-02-23 19:19:30,981 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
-	at java.lang.Thread.run(Thread.java:724)
-2014-02-23 19:19:31,184 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:31,186 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:31,187 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 400
-2014-02-23 19:19:31,588 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:31,590 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:31,591 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 800
-2014-02-23 19:19:32,392 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:32,394 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:32,395 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 1600
-2014-02-23 19:19:33,996 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:2223
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:33,997 [myid:2] - WARN  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumCnxManager@368] - Cannot open channel to 3 at election address /127.0.0.1:4445
-java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
-	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
-	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
-	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
-2014-02-23 19:19:33,998 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FastLeaderElection@774] - Notification time out: 3200
-2014-02-23 19:19:36,702 [myid:2] - INFO  [/127.0.0.1:3334:QuorumCnxManager$Listener@493] - Received connection request /127.0.0.1:53801
-2014-02-23 19:19:36,718 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 1 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
-2014-02-23 19:19:36,719 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xd (n.peerEPoch), LOOKING (my state)
-2014-02-23 19:19:36,921 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@750] - LEADING
-2014-02-23 19:19:36,925 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@58] - TCP NoDelay set to: true
-2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
-2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:host.name=gaoge-desktop
-2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.version=1.7.0_25
-2014-02-23 19:19:36,938 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.vendor=Oracle Corporation
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.class.path=/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/classes:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-api-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/netty-3.2.2.Final.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/log4j-1.2.15.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/jline-0.9.94.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../zookeeper-3.4.5.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../src/java/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf:
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.io.tmpdir=/tmp
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.compiler=<NA>
-2014-02-23 19:19:36,939 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.name=Linux
-2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.arch=amd64
-2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.version=3.2.0-52-generic
-2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.name=root
-2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.home=/root
-2014-02-23 19:19:36,940 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.dir=/home/ubuntu/git/zookeeper/zookeeper-server/z2
-2014-02-23 19:19:36,941 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ./data/version-2 snapdir ./data/version-2
-2014-02-23 19:19:36,942 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@345] - LEADING - LEADER ELECTION TOOK - 5971
-2014-02-23 19:19:36,944 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.c00000004
-2014-02-23 19:19:36,956 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileTxnSnapLog@240] - Snapshotting: 0xd000000a5 to ./data/version-2/snapshot.d000000a5
-2014-02-23 19:19:36,963 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@45106993
-2014-02-23 19:19:37,071 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0xd000000a5 minCommittedLog=0xd00000001 peerLastZxid=0xd000000a5
-2014-02-23 19:19:37,072 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:LearnerHandler@395] - Sending DIFF
-2014-02-23 19:19:37,139 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50513:Leader@574] - Commiting zxid 0xe00000000 from /127.0.0.1:3333 not first!
-2014-02-23 19:19:37,139 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50513:Leader@576] - First is 0x0
-2014-02-23 19:19:37,140 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50513:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0xe00000000
-2014-02-23 19:19:45,297 [myid:2] - INFO  [/127.0.0.1:3334:QuorumCnxManager$Listener@493] - Received connection request /127.0.0.1:53809
-2014-02-23 19:19:45,299 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 3 (n.leader), 0xc00000004 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xc (n.peerEPoch), LEADING (my state)
-2014-02-23 19:19:45,301 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xd000000a5 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xd (n.peerEPoch), LEADING (my state)
-2014-02-23 19:19:45,534 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@152d325a
-2014-02-23 19:19:45,644 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@318] - Synchronizing with Follower sid: 3 maxCommittedLog=0xd000000a5 minCommittedLog=0xd00000001 peerLastZxid=0xc00000004
-2014-02-23 19:19:45,645 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@379] - Unhandled proposal scenario
-2014-02-23 19:19:45,645 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@395] - Sending SNAP
-2014-02-23 19:19:45,646 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:50517:LearnerHandler@419] - Sending snapshot last zxid of peer is 0xc00000004  zxid of leader is 0xe00000000sent zxid of db as 0xe00000000
-2014-02-23 19:20:07,799 [myid:2] - INFO  [SyncThread:2:FileTxnLog@199] - Creating new log file: log.e00000001
-2014-02-23 19:20:07,892 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740000 type:create cxid:0x1 zxid:0xe00000002 txntype:-1 reqpath:n/a Error Path:/workers Error:KeeperErrorCode = NoNode for /workers
-2014-02-23 19:20:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445de420d0000a, timeout of 30000ms exceeded
-2014-02-23 19:20:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445de420d0000a
-2014-02-23 19:20:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740000, timeout of 15000ms exceeded
-2014-02-23 19:20:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740000
-2014-02-23 19:23:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740001, timeout of 15000ms exceeded
-2014-02-23 19:23:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740001
-2014-02-23 19:24:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740003, timeout of 15000ms exceeded
-2014-02-23 19:24:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740003
-2014-02-23 19:24:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740004, timeout of 15000ms exceeded
-2014-02-23 19:24:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740004
-2014-02-23 19:43:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740005, timeout of 15000ms exceeded
-2014-02-23 19:43:44,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740005
-2014-02-23 20:06:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740006, timeout of 15000ms exceeded
-2014-02-23 20:06:02,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740006
-2014-02-23 20:06:56,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740007, timeout of 15000ms exceeded
-2014-02-23 20:06:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740007
-2014-02-23 20:07:28,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740008, timeout of 15000ms exceeded
-2014-02-23 20:07:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740008
-2014-02-23 20:08:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000a, timeout of 15000ms exceeded
-2014-02-23 20:08:00,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000a
-2014-02-23 20:08:18,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740009, timeout of 15000ms exceeded
-2014-02-23 20:08:18,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740009
-2014-02-23 20:08:32,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000b, timeout of 15000ms exceeded
-2014-02-23 20:08:32,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000b
-2014-02-23 20:08:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000c, timeout of 15000ms exceeded
-2014-02-23 20:08:58,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000c
-2014-02-23 20:10:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000d, timeout of 15000ms exceeded
-2014-02-23 20:10:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000d
-2014-02-23 20:58:14,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000e, timeout of 15000ms exceeded
-2014-02-23 20:58:14,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000e
-2014-02-23 20:59:20,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574000f, timeout of 15000ms exceeded
-2014-02-23 20:59:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574000f
-2014-02-23 20:59:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740010, timeout of 15000ms exceeded
-2014-02-23 20:59:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740010
-2014-02-23 21:00:13,966 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740012 type:create cxid:0x1 zxid:0xe00000032 txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = NodeExists for /master
-2014-02-23 21:00:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740011, timeout of 15000ms exceeded
-2014-02-23 21:00:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740011
-2014-02-23 21:00:30,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740012, timeout of 15000ms exceeded
-2014-02-23 21:00:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740012
-2014-02-23 21:01:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740013, timeout of 15000ms exceeded
-2014-02-23 21:01:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740013
-2014-02-23 21:01:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740014, timeout of 15000ms exceeded
-2014-02-23 21:01:52,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740014
-2014-02-23 21:02:18,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740015, timeout of 15000ms exceeded
-2014-02-23 21:02:18,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740015
-2014-02-23 21:02:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740016, timeout of 15000ms exceeded
-2014-02-23 21:02:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740016
-2014-02-23 21:04:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740017, timeout of 15000ms exceeded
-2014-02-23 21:04:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740017
-2014-02-23 21:04:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740018, timeout of 15000ms exceeded
-2014-02-23 21:04:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740018
-2014-02-23 21:05:45,377 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c574001a type:create cxid:0x1 zxid:0xe0000004a txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = NodeExists for /master
-2014-02-23 21:06:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001a, timeout of 15000ms exceeded
-2014-02-23 21:06:02,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001a
-2014-02-23 21:06:40,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740019, timeout of 15000ms exceeded
-2014-02-23 21:06:40,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740019
-2014-02-23 21:07:36,760 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001b
-2014-02-23 21:08:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001c, timeout of 15000ms exceeded
-2014-02-23 21:08:58,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001c
-2014-02-23 21:09:30,611 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001d
-2014-02-23 21:10:35,736 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001e
-2014-02-23 21:49:23,606 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740020 type:create cxid:0x2 zxid:0xe0000005c txntype:-1 reqpath:n/a Error Path:/workers/worker-2006951274/master Error:KeeperErrorCode = NoChildrenForEphemerals for /workers/worker-2006951274/master
-2014-02-23 21:49:24,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574001f, timeout of 35000ms exceeded
-2014-02-23 21:49:24,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574001f
-2014-02-23 21:49:40,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740020, timeout of 15000ms exceeded
-2014-02-23 21:49:40,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740020
-2014-02-23 21:51:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740022, timeout of 15000ms exceeded
-2014-02-23 21:51:08,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740022
-2014-02-23 21:51:16,965 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740023 type:create cxid:0x2 zxid:0xe00000065 txntype:-1 reqpath:n/a Error Path:/workers/worker--1615227411/master Error:KeeperErrorCode = NodeExists for /workers/worker--1615227411/master
-2014-02-23 21:51:34,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740023, timeout of 15000ms exceeded
-2014-02-23 21:51:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740023
-2014-02-23 21:51:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740021, timeout of 35000ms exceeded
-2014-02-23 21:51:38,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740021
-2014-02-23 21:51:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740024, timeout of 15000ms exceeded
-2014-02-23 21:51:48,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740024
-2014-02-23 21:58:21,456 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0x8b zxid:0xe0000006a txntype:-1 reqpath:n/a Error Path:/workers/worker--1615227411 Error:KeeperErrorCode = Directory not empty for /workers/worker--1615227411
-2014-02-23 22:01:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740025, timeout of 35000ms exceeded
-2014-02-23 22:01:00,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740025
-2014-02-23 22:04:11,979 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0x95 zxid:0xe00000071 txntype:-1 reqpath:n/a Error Path:/workers/worker--2083846205 Error:KeeperErrorCode = NoNode for /workers/worker--2083846205
-2014-02-23 22:05:56,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740028, timeout of 15000ms exceeded
-2014-02-23 22:05:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740028
-2014-02-23 22:06:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740029, timeout of 15000ms exceeded
-2014-02-23 22:06:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740029
-2014-02-23 22:07:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740026, timeout of 35000ms exceeded
-2014-02-23 22:07:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740026
-2014-02-23 22:07:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740027, timeout of 35000ms exceeded
-2014-02-23 22:07:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740027
-2014-02-23 22:22:16,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002a, timeout of 15000ms exceeded
-2014-02-23 22:22:16,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002a
-2014-02-23 22:22:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002b, timeout of 15000ms exceeded
-2014-02-23 22:22:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002b
-2014-02-23 22:23:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002c, timeout of 15000ms exceeded
-2014-02-23 22:23:44,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002c
-2014-02-23 22:23:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002d, timeout of 15000ms exceeded
-2014-02-23 22:23:52,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002d
-2014-02-23 22:29:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740030, timeout of 15000ms exceeded
-2014-02-23 22:29:26,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740030
-2014-02-23 22:29:39,350 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c574002e type:setData cxid:0x6 zxid:0xe0000008f txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = BadVersion for /master
-2014-02-23 22:30:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002e, timeout of 35000ms exceeded
-2014-02-23 22:30:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002e
-2014-02-23 22:30:34,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c574002f, timeout of 35000ms exceeded
-2014-02-23 22:30:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c574002f
-2014-02-23 22:36:35,260 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740002 type:delete cxid:0xbe zxid:0xe00000092 txntype:-1 reqpath:n/a Error Path:/workers/-725634470 Error:KeeperErrorCode = NoNode for /workers/-725634470
-2014-02-23 22:38:06,599 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1445e78c5740033 type:setData cxid:0x3 zxid:0xe00000099 txntype:-1 reqpath:n/a Error Path:/master Error:KeeperErrorCode = BadVersion for /master
-2014-02-23 22:38:22,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740033, timeout of 15000ms exceeded
-2014-02-23 22:38:22,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740033
-2014-02-23 22:38:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740034, timeout of 15000ms exceeded
-2014-02-23 22:38:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740034
-2014-02-23 22:39:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740031, timeout of 35000ms exceeded
-2014-02-23 22:39:48,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740031
-2014-02-23 22:39:54,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740032, timeout of 35000ms exceeded
-2014-02-23 22:39:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740032
+2014-03-01 15:46:22,252 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xe000000a1 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0xe (n.peerEPoch), LOOKING (my state)
+2014-03-01 15:46:22,455 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:QuorumPeer@750] - LEADING
+2014-03-01 15:46:22,460 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@58] - TCP NoDelay set to: true
+2014-03-01 15:46:22,487 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-03-01 15:46:22,488 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:host.name=gaoge-desktop
+2014-03-01 15:46:22,488 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.version=1.7.0_25
+2014-03-01 15:46:22,488 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2014-03-01 15:46:22,488 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2014-03-01 15:46:22,489 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.class.path=/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/classes:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../build/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/slf4j-api-1.6.1.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/netty-3.2.2.Final.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/log4j-1.2.15.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../lib/jline-0.9.94.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../zookeeper-3.4.5.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../src/java/lib/*.jar:/home/ubuntu/git/zookeeper/zookeeper-server/z2/bin/../conf:
+2014-03-01 15:46:22,489 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2014-03-01 15:46:22,489 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2014-03-01 15:46:22,489 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:java.compiler=<NA>
+2014-03-01 15:46:22,489 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.name=Linux
+2014-03-01 15:46:22,490 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.arch=amd64
+2014-03-01 15:46:22,490 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:os.version=3.2.0-52-generic
+2014-03-01 15:46:22,490 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.name=root
+2014-03-01 15:46:22,490 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.home=/root
+2014-03-01 15:46:22,490 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Environment@100] - Server environment:user.dir=/home/ubuntu/git/zookeeper/zookeeper-server/z2
+2014-03-01 15:46:22,491 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir ./data/version-2 snapdir ./data/version-2
+2014-03-01 15:46:22,492 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:Leader@345] - LEADING - LEADER ELECTION TOOK - 249
+2014-03-01 15:46:22,494 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileSnap@83] - Reading snapshot ./data/version-2/snapshot.d000000a5
+2014-03-01 15:46:22,509 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2182:FileTxnSnapLog@240] - Snapshotting: 0xe000000a1 to ./data/version-2/snapshot.e000000a1
+2014-03-01 15:46:22,527 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:37780:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@208cb492
+2014-03-01 15:46:22,651 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:37780:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0xe000000a1 minCommittedLog=0xe00000001 peerLastZxid=0xe000000a1
+2014-03-01 15:46:22,652 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:37780:LearnerHandler@395] - Sending DIFF
+2014-03-01 15:46:22,728 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:37780:Leader@574] - Commiting zxid 0xf00000000 from /127.0.0.1:3333 not first!
+2014-03-01 15:46:22,728 [myid:2] - WARN  [LearnerHandler-/127.0.0.1:37780:Leader@576] - First is 0x0
+2014-03-01 15:46:22,729 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:37780:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0xf00000000
+2014-03-01 15:46:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1445e78c5740002, timeout of 30000ms exceeded
+2014-03-01 15:46:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1445e78c5740002
+2014-03-01 15:46:54,002 [myid:2] - INFO  [SyncThread:2:FileTxnLog@199] - Creating new log file: log.f00000001
+2014-03-02 15:29:53,957 [myid:2] - INFO  [/127.0.0.1:3334:QuorumCnxManager$Listener@493] - Received connection request /127.0.0.1:36335
+2014-03-02 15:29:53,960 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 3 (n.leader), 0xe000000a1 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0xe (n.peerEPoch), LEADING (my state)
+2014-03-02 15:29:53,979 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:48704:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@66f95a5a
+2014-03-02 15:29:54,073 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:48704:LearnerHandler@318] - Synchronizing with Follower sid: 3 maxCommittedLog=0xf00000001 minCommittedLog=0xe00000001 peerLastZxid=0xe000000a1
+2014-03-02 15:29:54,073 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:48704:LearnerHandler@395] - Sending DIFF
+2014-03-02 15:41:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410002, timeout of 15000ms exceeded
+2014-03-02 15:41:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410002
+2014-03-02 15:42:40,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410000, timeout of 35000ms exceeded
+2014-03-02 15:42:40,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410000
+2014-03-02 15:43:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410001, timeout of 35000ms exceeded
+2014-03-02 15:43:02,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410001
+2014-03-02 15:49:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410005, timeout of 15000ms exceeded
+2014-03-02 15:49:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410005
+2014-03-02 15:50:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410003, timeout of 35000ms exceeded
+2014-03-02 15:50:20,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410004, timeout of 35000ms exceeded
+2014-03-02 15:50:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410003
+2014-03-02 15:50:20,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410004
+2014-03-02 15:50:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410008, timeout of 15000ms exceeded
+2014-03-02 15:50:44,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410008
+2014-03-02 15:50:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410006, timeout of 35000ms exceeded
+2014-03-02 15:50:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410006
+2014-03-02 15:50:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410007, timeout of 35000ms exceeded
+2014-03-02 15:50:52,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410007
+2014-03-02 15:54:21,733 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x34481b2f99c0000 type:delete cxid:0x23 zxid:0xf00000029 txntype:-1 reqpath:n/a Error Path:/workers/* Error:KeeperErrorCode = NoNode for /workers/*
+2014-03-02 15:54:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000a, timeout of 35000ms exceeded
+2014-03-02 15:54:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000a
+2014-03-02 15:54:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410009, timeout of 35000ms exceeded
+2014-03-02 15:54:50,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410009
+2014-03-02 15:56:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000d, timeout of 15000ms exceeded
+2014-03-02 15:56:20,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000d
+2014-03-02 15:57:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000b, timeout of 35000ms exceeded
+2014-03-02 15:57:38,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000b
+2014-03-02 15:57:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000c, timeout of 35000ms exceeded
+2014-03-02 15:57:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000c
+2014-03-02 15:58:24,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000e, timeout of 35000ms exceeded
+2014-03-02 15:58:24,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000e
+2014-03-02 16:03:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410011, timeout of 15000ms exceeded
+2014-03-02 16:03:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410011
+2014-03-02 16:04:08,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410010, timeout of 35000ms exceeded
+2014-03-02 16:04:08,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410010
+2014-03-02 16:05:16,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341000f, timeout of 35000ms exceeded
+2014-03-02 16:05:16,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341000f
+2014-03-02 16:20:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410014, timeout of 15000ms exceeded
+2014-03-02 16:20:38,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410014
+2014-03-02 16:23:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410012, timeout of 35000ms exceeded
+2014-03-02 16:23:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410012
+2014-03-02 16:23:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410013, timeout of 35000ms exceeded
+2014-03-02 16:23:48,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410013
+2014-03-02 16:33:30,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410015, timeout of 35000ms exceeded
+2014-03-02 16:33:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410015
+2014-03-02 16:33:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410016, timeout of 35000ms exceeded
+2014-03-02 16:33:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410016
+2014-03-02 16:35:36,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410019, timeout of 15000ms exceeded
+2014-03-02 16:35:36,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410019
+2014-03-02 16:42:28,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001a, timeout of 35000ms exceeded
+2014-03-02 16:42:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001a
+2014-03-02 16:42:32,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410017, timeout of 35000ms exceeded
+2014-03-02 16:42:32,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410017
+2014-03-02 16:42:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410018, timeout of 35000ms exceeded
+2014-03-02 16:42:38,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410018
+2014-03-02 16:47:56,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001b, timeout of 35000ms exceeded
+2014-03-02 16:47:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001b
+2014-03-02 16:48:00,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001c, timeout of 35000ms exceeded
+2014-03-02 16:48:00,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001c
+2014-03-02 16:49:22,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001d, timeout of 35000ms exceeded
+2014-03-02 16:49:22,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001e, timeout of 35000ms exceeded
+2014-03-02 16:49:22,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001d
+2014-03-02 16:49:22,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001e
+2014-03-02 16:57:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410020, timeout of 35000ms exceeded
+2014-03-02 16:57:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341001f, timeout of 35000ms exceeded
+2014-03-02 16:57:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410020
+2014-03-02 16:57:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341001f
+2014-03-02 17:00:38,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410021, timeout of 35000ms exceeded
+2014-03-02 17:00:38,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410021
+2014-03-02 17:01:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410024, timeout of 15000ms exceeded
+2014-03-02 17:01:00,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410024
+2014-03-02 17:01:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410023, timeout of 35000ms exceeded
+2014-03-02 17:01:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410023
+2014-03-02 17:01:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410022, timeout of 35000ms exceeded
+2014-03-02 17:01:46,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410022
+2014-03-02 17:02:06,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410025, timeout of 15000ms exceeded
+2014-03-02 17:02:06,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410025
+2014-03-02 17:06:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410026, timeout of 35000ms exceeded
+2014-03-02 17:06:34,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410026
+2014-03-02 17:21:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410027, timeout of 35000ms exceeded
+2014-03-02 17:21:58,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410027
+2014-03-02 19:45:22,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410028, timeout of 35000ms exceeded
+2014-03-02 19:45:22,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410028
+2014-03-02 19:50:26,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410029, timeout of 35000ms exceeded
+2014-03-02 19:50:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410029
+2014-03-02 20:04:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002b, timeout of 35000ms exceeded
+2014-03-02 20:04:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002a, timeout of 35000ms exceeded
+2014-03-02 20:04:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002b
+2014-03-02 20:04:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002a
+2014-03-02 20:04:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002c, timeout of 35000ms exceeded
+2014-03-02 20:04:52,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002c
+2014-03-02 20:05:06,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002d, timeout of 35000ms exceeded
+2014-03-02 20:05:06,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002d
+2014-03-02 20:18:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002e, timeout of 35000ms exceeded
+2014-03-02 20:18:20,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002e
+2014-03-02 20:18:36,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341002f, timeout of 35000ms exceeded
+2014-03-02 20:18:36,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341002f
+2014-03-02 20:26:12,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410030, timeout of 35000ms exceeded
+2014-03-02 20:26:12,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410030
+2014-03-02 20:27:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410031, timeout of 35000ms exceeded
+2014-03-02 20:27:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410031
+2014-03-02 20:42:34,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410032, timeout of 35000ms exceeded
+2014-03-02 20:42:34,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410032
+2014-03-02 20:44:46,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410033, timeout of 35000ms exceeded
+2014-03-02 20:44:46,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410033
+2014-03-02 20:44:54,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410034, timeout of 35000ms exceeded
+2014-03-02 20:44:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410034
+2014-03-02 20:50:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410037, timeout of 35000ms exceeded
+2014-03-02 20:50:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410037
+2014-03-02 20:51:14,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410038, timeout of 35000ms exceeded
+2014-03-02 20:51:14,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410038
+2014-03-02 21:12:14,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410035, timeout of 35000ms exceeded
+2014-03-02 21:12:14,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410035
+2014-03-02 21:12:24,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410036, timeout of 35000ms exceeded
+2014-03-02 21:12:24,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410036
+2014-03-02 21:13:16,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003b, timeout of 35000ms exceeded
+2014-03-02 21:13:16,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003b
+2014-03-02 21:28:48,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003a, timeout of 35000ms exceeded
+2014-03-02 21:28:48,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410039, timeout of 35000ms exceeded
+2014-03-02 21:28:48,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003a
+2014-03-02 21:28:48,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410039
+2014-03-02 21:29:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410040, timeout of 35000ms exceeded
+2014-03-02 21:29:44,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410040
+2014-03-02 21:32:54,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003e, timeout of 35000ms exceeded
+2014-03-02 21:32:54,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003e
+2014-03-02 21:32:56,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003d, timeout of 35000ms exceeded
+2014-03-02 21:32:56,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003c, timeout of 35000ms exceeded
+2014-03-02 21:32:56,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003d
+2014-03-02 21:32:56,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003c
+2014-03-02 21:33:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341003f, timeout of 35000ms exceeded
+2014-03-02 21:33:00,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341003f
+2014-03-02 21:33:02,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410041, timeout of 35000ms exceeded
+2014-03-02 21:33:02,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410041
+2014-03-02 21:44:32,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410042, timeout of 35000ms exceeded
+2014-03-02 21:44:32,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410042
+2014-03-02 21:48:06,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410043, timeout of 15000ms exceeded
+2014-03-02 21:48:06,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410043
+2014-03-02 21:48:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410044, timeout of 35000ms exceeded
+2014-03-02 21:48:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410044
+2014-03-02 21:48:28,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410045, timeout of 15000ms exceeded
+2014-03-02 21:48:28,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410045
+2014-03-02 21:48:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410046, timeout of 35000ms exceeded
+2014-03-02 21:48:48,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410046
+2014-03-02 21:49:00,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410047, timeout of 15000ms exceeded
+2014-03-02 21:49:00,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410047
+2014-03-02 21:49:20,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410048, timeout of 35000ms exceeded
+2014-03-02 21:49:20,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410048
+2014-03-02 21:50:30,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410049, timeout of 15000ms exceeded
+2014-03-02 21:50:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410049
+2014-03-02 21:50:50,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341004a, timeout of 35000ms exceeded
+2014-03-02 21:50:50,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341004a
+2014-03-02 21:51:44,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341004f, timeout of 15000ms exceeded
+2014-03-02 21:51:44,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341004f
+2014-03-02 21:52:04,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341004d, timeout of 35000ms exceeded
+2014-03-02 21:52:04,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341004d
+2014-03-02 21:52:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410050, timeout of 35000ms exceeded
+2014-03-02 21:52:42,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410050
+2014-03-02 21:53:32,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410056, timeout of 15000ms exceeded
+2014-03-02 21:53:32,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410056
+2014-03-02 21:53:42,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410052, timeout of 35000ms exceeded
+2014-03-02 21:53:42,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410052
+2014-03-02 21:53:52,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410054, timeout of 35000ms exceeded
+2014-03-02 21:53:52,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410054
+2014-03-02 21:54:58,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410059, timeout of 15000ms exceeded
+2014-03-02 21:54:58,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410059
+2014-03-02 21:55:18,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410057, timeout of 35000ms exceeded
+2014-03-02 21:55:18,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410057
+2014-03-02 21:57:06,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341005d, timeout of 15000ms exceeded
+2014-03-02 21:57:06,000 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341005d
+2014-03-02 21:57:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341005b, timeout of 35000ms exceeded
+2014-03-02 21:57:26,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341005a, timeout of 35000ms exceeded
+2014-03-02 21:57:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341005b
+2014-03-02 21:57:26,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341005a
+2014-03-02 21:59:10,601 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x1447c9bb3410060 type:create cxid:0x1 zxid:0xf00000123 txntype:-1 reqpath:n/a Error Path:/jobs/null Error:KeeperErrorCode = NodeExists for /jobs/null
+2014-03-02 21:59:28,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410064, timeout of 15000ms exceeded
+2014-03-02 21:59:28,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410064
+2014-03-02 21:59:30,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341005e, timeout of 35000ms exceeded
+2014-03-02 21:59:30,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb341005f, timeout of 35000ms exceeded
+2014-03-02 21:59:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341005e
+2014-03-02 21:59:30,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb341005f
+2014-03-02 21:59:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410062, timeout of 35000ms exceeded
+2014-03-02 21:59:48,000 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410061, timeout of 35000ms exceeded
+2014-03-02 21:59:48,001 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1447c9bb3410060, timeout of 35000ms exceeded
+2014-03-02 21:59:48,001 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410062
+2014-03-02 21:59:48,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410061
+2014-03-02 21:59:48,002 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1447c9bb3410060

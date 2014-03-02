@@ -1,0 +1,12 @@
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/work/SelectMasterJob.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/sample/MasterSync.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/work/RegisterJob.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/thrift/ThriftClient.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/common/Config.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/sample/MasterASync.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/thrift/FeatureThriftService.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/sample/AdminClient.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/work/ExtractFeatureClient.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/thrift/FeatureThriftServiceHandler.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/thrift/ThriftServer.java
+/home/ubuntu/git/zookeeper/zookeeper-work/src/main/java/com/gg/sample/StatChange.java

@@ -1,0 +1,5 @@
+#surefire
+#Sun Mar 02 21:58:30 SGT 2014
+user.dir=/home/ubuntu/git/zookeeper/zookeeper-work
+localRepository=/home/gaoge/.m2/repository
+basedir=/home/ubuntu/git/zookeeper/zookeeper-work
