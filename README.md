@@ -24,3 +24,7 @@ run "RegisterJob.java" N times
 
 **Client sends request for feature extraction:**
 run "ExtractFeatureClient.java"
+
+
+### Code coverage report
+zookeeper-work/zookeeper_report.png
